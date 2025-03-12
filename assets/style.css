@@ -1,0 +1,15 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #1c0e02;
+    color: #eb931f;
+    font-family: "VT323", monospace;
+    text-shadow: 0 0 7px #ebb51f;
+}
+
+header {
+    display: flex;
+    margin: 20px 30px;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
