@@ -64,9 +64,18 @@ header {
 }
 
 #semester-route {
-    margin: 0 0 0 10px;
+    margin: 10px 0 0 10px;
     color: #1c0e02;
     background-color: #eb931f;
     text-shadow: none;
-    box-shadow: 0 0 20px #f5dd9c;
+    box-shadow: 0 0 10px #ebb51f;
+    padding: 2px 10px;
+    width: 70%;
+    font-size: 1.4rem;
+}
+
+.first-container-text {
+    font-size: 1.15rem;
+    margin: 10px 0 0 10px;
+    padding: 0;
 }
