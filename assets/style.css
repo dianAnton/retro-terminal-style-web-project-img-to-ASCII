@@ -34,7 +34,7 @@ header {
     display: flex;
     border: 6px solid #eb931f;
     border-style: double;
-    height: 550px;
+    height: 88%;
     margin: 3px 20px;
     box-shadow: 0 0 7px #ebb51f;
 }
@@ -42,7 +42,7 @@ header {
 .left-side {
     display: flex;
     flex-direction: column;
-    height: 550px;
+    height: 100%;
     width: 50%;
     border-right: 6px solid #eb931f;
     border-style: double;
@@ -61,4 +61,12 @@ header {
     height: 50%;
     width: 100%;
     box-shadow: 0 0 7px #ebb51f;
+}
+
+#semester-route {
+    margin: 0 0 0 10px;
+    color: #1c0e02;
+    background-color: #eb931f;
+    text-shadow: none;
+    box-shadow: 0 0 20px #f5dd9c;
 }
