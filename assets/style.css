@@ -7,6 +7,15 @@ html, body {
     text-shadow: 0 0 7px #ebb51f;
 }
 
+.container {
+    animation: flicker 0.2s infinite alternate;
+}
+
+@keyframes flicker {
+    from { opacity: 0.9; }
+    to { opacity: 1; }
+}
+
 header {
     display: flex;
     margin: 3px 30px;
