@@ -83,6 +83,32 @@ html, body {
     color: rgba(95, 55, 6, 0.993);
 }
 
+header {
+    padding: 0;
+    margin: 0;
+}
+
+.terminal-nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+.terminal-nav-list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.terminal-nav-list-el {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
 /* Animations */
 
 @keyframes textShadow {
