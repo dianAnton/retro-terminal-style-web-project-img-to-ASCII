@@ -21,8 +21,8 @@ html, body {
 
 #screen {
     position: relative;
-    border: 45px solid transparent;
-    height: 100%;
+    border: 90px solid transparent;
+    height: 80.3vh;
     border-image-source: url(./images/bezel.jpg);
     border-image-slice: 30 fill;
     border-image-outset: 0;
@@ -108,6 +108,7 @@ header {
     margin: 0;
     padding: 0;
 }
+
 
 /* Animations */
 
