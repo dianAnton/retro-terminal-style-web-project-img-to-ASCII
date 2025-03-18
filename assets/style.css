@@ -91,24 +91,51 @@ header {
 .terminal-nav {
     margin: 0;
     padding: 0;
-    display: flex;
+    display: block;
     width: 100%;
 }
 
 .terminal-nav-list {
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 100%;
 }
 
 .terminal-nav-list-el {
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
 }
 
+.help {
+  margin: 10px 0 0 10px;
+}
+
+.input-field {
+  display: flex;
+  align-items: center;
+  margin: 50px 0 0 10px ;
+}
+
+.caret {
+  width: 10px;
+  height: 20px;
+  background: #ffd000;
+  box-shadow: 
+    0 0 5px #ffd000, /* Brillo sutil */
+    0 0 10px #FF8C00, 
+    0 0 20px #ff2600; /* Efecto neón */
+  margin-left: 10px;
+  animation: blink 0.35s steps(2, start) infinite;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 /* Animations */
 
