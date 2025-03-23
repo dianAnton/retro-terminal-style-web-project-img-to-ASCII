@@ -19,25 +19,30 @@
             <div id="crt" class="ctr"> 
                 <div class="scanlines"></div>
                 <div class="terminal">
-                    <header>
-                        <nav class="terminal-nav">
-                            <ul class="terminal-nav-list">
-                                <li class="terminal-nav-list-el">2025-1,</li>
-                                <li class="terminal-nav-list-el">Time - 19:07:26,</li>
-                                <li class="terminal-nav-list-el">Date - March 18, 2025</li>
-                            </ul>
-                        </nav>
-                    </header>
+
                     <div class="content">
-                        <p class="help">*Type ./help to see all the commands</p>
+                        <p class="help">Convertir imagen a caracteres ASCII</p>
+                        <p class="help">Sube tu imagen desde tus archivos. Recomendacion: subir imagenes menores de 1000px x 1000px</p>
                         <div class="input-field">
                             <p>PS C:\Users\diego\Documents\folder_1>~$ </p>
-                            <span class="caret"></span>
+                            
+                            <label for="imageInput" class="custom-file-upload">
+                                Cargar Imagen
+                            </label>
+                            <input type="file" id="imageInput" accept="image/*">
+                        </div>
+                        <div class="img_area">
+                            <canvas id="canvas_1"></canvas>
+                        </div>
+                        <div class="controls">
+                            <label for="resolution" id="resolutionLabel">Resolucion: 5px</label>
+                            <input type="range" id="resolution" name="resolution" min="5" max="20" value="5">
                         </div>
                     </div>
                 </div>
             </div>  
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
