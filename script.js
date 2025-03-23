@@ -4,9 +4,10 @@ const imageInput = document.getElementById("imageInput");
 const loadButton = document.getElementById("loadImage");
 
 const image_1 = new Image();
+
 // Cuando el usuario selecciona una imagen
 imageInput.addEventListener("change", function (event) {
-    const file = event.target.files[0]; // Obtener el archivo seleccionado
+    const file = event.target.files[0]; 
     if (file) {
         const reader = new FileReader();
         
@@ -15,9 +16,10 @@ imageInput.addEventListener("change", function (event) {
             image_1.src = e.target.result;
         };
         
-        reader.readAsDataURL(file); // Convertir a base64
+        reader.readAsDataURL(file); 
     }
 });
+
 
 const inputSlider = document.getElementById("resolution");
 const inputLabel = document.getElementById("resolutionLabel");
@@ -62,7 +64,7 @@ class AsciiEffect {
     }
 
     #convertToSymbol(value){
-        if (value > 240) return ' ';       // Casi blanco - espacio vacío
+        if (value > 240) return ' ';       
         else if (value > 225) return '.';
         else if (value > 210) return ':';
         else if (value > 195) return '-';
@@ -78,8 +80,7 @@ class AsciiEffect {
         else if (value > 45) return 'W';
         else if (value > 30) return '@';
         else if (value > 15) return 'M';
-        else return '*';                   // Más oscuro - carácter más denso         // Casi blanco - espacio vacío
-                    // Más oscuro - carácter más denso
+        else return '*';                   
     }
 
     // Recorrer la imagen completa del canvas en grid de celdas tamaño cellSize
