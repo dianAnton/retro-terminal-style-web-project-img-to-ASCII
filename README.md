@@ -48,6 +48,8 @@ El proceso de conversión funciona de la siguiente manera:
 
 ## Ejecución
 
+Prueba de la página: [imagetoascii-retro-terminal.netlify.app](Demo)
+
 Para utilizar la aplicación:
 
 1.  Abra el archivo `index.html` en un navegador web moderno.
